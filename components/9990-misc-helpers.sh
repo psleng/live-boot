@@ -452,7 +452,8 @@ is_supported_fs ()
 
 get_fstype ()
 {
-	/sbin/blkid -s TYPE -o value $1 2>/dev/null
+echo "All parameters: $@"
+/sbin/blkid -s TYPE -o value $1 2>/dev/null
 }
 
 where_is_mounted ()
