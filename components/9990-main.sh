@@ -1,6 +1,7 @@
 #!/bin/sh
 
 # set -e
+set -x
 
 Live ()
 {	if [ -x /scripts/local-top/mdadm ]; then

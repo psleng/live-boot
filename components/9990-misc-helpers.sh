@@ -1,6 +1,7 @@
 #!/bin/sh
 
 #set -e
+set -x
 
 is_live_path()
 {
